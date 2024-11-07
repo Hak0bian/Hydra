@@ -1,0 +1,33 @@
+@keyframes arrow_right {
+    to{
+        translate: 0;
+    }
+    from{
+        transform: translateX(20px);
+    }
+}
+
+@keyframes translate {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    90% {
+        width: 100%;
+    }
+    100% {
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@keyframes top-bottom {
+    to{
+        translate: 0;
+    }
+    from{
+        transform: translateY(30px);
+    }
+}
